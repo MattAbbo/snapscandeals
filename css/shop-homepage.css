@@ -42,6 +42,7 @@ body {
 
 .thumbnail {
     padding: 0;
+    height: auto;
 }
 
 .thumbnail .caption-full {
@@ -60,5 +61,8 @@ footer {
     background-color: #979da3;
 }
 
+.h3, h3 {
+    font-size: 1.2em;
+}
 
 
