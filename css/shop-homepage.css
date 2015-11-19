@@ -5,7 +5,20 @@
  */
 
 body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #333;
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+p, div {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .slide-image {
@@ -32,17 +45,23 @@ body {
 
 .thumbnail img {
     width: 100%;
+    border: 0px solid #ddd;
 }
 
 .ratings {
     padding-right: 10px;
     padding-left: 10px;
     color: #d17581;
+
 }
 
 .thumbnail {
     padding: 0;
     height: auto;
+    /*box-shadow: 1px -1px 36px #888888;*/
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+    border-radius: 6px;
+    overflow: hidden;
 }
 
 .thumbnail .caption-full {
@@ -65,4 +84,8 @@ footer {
     font-size: 1.2em;
 }
 
+.caption {
+    height: 228px;
+    overflow: hidden;
+}
 
